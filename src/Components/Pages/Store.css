@@ -1,0 +1,65 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    text-align: center;
+}
+.music-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.music-content div{
+    margin: 30px;
+}
+.image-container{
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+}
+.prod-details{
+    display: flex;
+    margin: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.prod-images{
+    transform-origin: center center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    transition: ease-in 0.5s;
+    filter: brightness(100%);
+}
+.shop-button{
+        cursor: pointer;
+    padding: 8px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4%;
+    background: #56CCF2;
+}
+.merch-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart-btn-bottom{
+    display: flex;
+    padding: 15px;
+    background-color: #777;
+    border: none;
+    border-radius: 7px;
+    margin: auto;
+    cursor: pointer;
+}
+.cart-bottom{
+    text-decoration: none;
+    color: #56CCF2;
+    font-size: 16px;
+    font-weight: 700;
+}
