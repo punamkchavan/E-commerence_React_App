@@ -1,0 +1,35 @@
+.cart-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.cart-img {
+  width: 50px;
+  margin-right: 10px;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-item{
+    width: 45%;
+}
+.cart-price{
+    width: 20%;
+}
+.cart-quantity{
+    width: 35%;
+}
+.remove-btn {
+  margin-left: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+}
