@@ -21,7 +21,7 @@ export default function AvailableProducts({product}){
       />
 
       <div className="product-footer">
-        <span>₹ {product.price}</span>
+        <span>$ {product.price}</span>
         <button onClick={addToCartHandler}>
           Add To Cart
         </button>
