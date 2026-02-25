@@ -7,6 +7,7 @@
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import About from "./Components/Pages/About";
 // import Home from "./Components/Pages/Home";
+// import Contact from "./Components/Pages/Contact";
 
 // function App() {
 //   const [cartIsShown, setCartIsShown] = useState(false);
@@ -31,6 +32,7 @@
 //           <Route path="/home" element={<Home />} />
 //           <Route path="/" element={<Products />} />
 //           <Route path="/about" element={<About />} />
+//           <Route path="/contact" element={Contact />} />
 //         </Routes>
 
 //         <Footer />
@@ -43,9 +45,11 @@
 // export default App;
 
 import Movies from "./Movies/Movies";
+import AddMovies from "./Movies/AddMovies";
 function App(){
   return(
     <Movies />
+
   )
 }
 export default App;

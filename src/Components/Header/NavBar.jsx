@@ -30,6 +30,11 @@ export default function NavBar(props){
                          ABOUT
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink  to="/contact" className={({ isActive }) => isActive ? "active" : ""}>
+                         Contact US
+                        </NavLink>
+                    </li>
                     <button className="cart-holder" onClick={props.onShowCart}>🛒 Cart ({totalQuantity}) </button>
                 </ul>
                 <h1>The Generics</h1>
